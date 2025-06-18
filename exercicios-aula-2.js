@@ -1,4 +1,4 @@
-/* 1. Crie uma função que receba dois arrays e os concatene em um único array.
+// 1. Crie uma função que receba dois arrays e os concatene em um único array.
 function concatenarArray(array1, array2) {
    return array1.concat(array2);
 }
@@ -30,7 +30,7 @@ const menuDeSobremesas = ['Pudim de Leite', 'Sorvete de Chocolate', 'Mousse de M
 
 const menuCompleto = menuPrincipal.concat(menuDeSobremesas);
 
-console.log('Menu completo: ', menuCompleto); */
+console.log('Menu completo: ', menuCompleto);
 
 /* 5. Crie uma lista bidimensional com 3 linhas e 3 colunas, onde cada elemento seja uma matriz 3x3 com valores iniciando em 1 e aumentando em 1 a cada elemento.
 Dicas:
