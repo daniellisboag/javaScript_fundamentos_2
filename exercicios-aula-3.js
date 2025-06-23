@@ -1,4 +1,4 @@
-/* 1. Escreva um código que utilize o loop for/of para iterar e imprimir cada elemento de um array.
+// 1. Escreva um código que utilize o loop for/of para iterar e imprimir cada elemento de um array.
 function exibirElemento(array) {
    for (let list of array) {
       console.log(list);
@@ -49,7 +49,7 @@ function maiorMenor(array) {
 }
 
 maiorMenor(lista)
-console.log(`O maior número é ${maior} e o menor é ${menor}`); */
+console.log(`O maior número é ${maior} e o menor é ${menor}`);
 
 // 5. Crie um programa que utilize um laço for para percorrer uma array `const numeros = [3, 8, 12, 5, 6, 10, 7, 2, 9, 14]` e exibir no console apenas os números pares contidos nesse array.
 const numeros = [3, 8, 12, 5, 6, 10, 7, 2, 9, 14];
@@ -66,3 +66,15 @@ console.log('Números pares:');
 numerosPares(numeros);
 
 // 6. Crie um programa que calcule a média dos números presentes em um array utilizando um loop for.
+let resultado = 0;
+
+function calcularMedia(array) {
+   for (let media of array) {
+      resultado += media;
+   }
+   return resultado = resultado / array.length;
+}
+
+const numeros = [3, 8, 12, 5, 6, 10, 7, 2, 9, 14];
+console.log('Array:', numeros);
+console.log('Média dos números:', calcularMedia(numeros));
