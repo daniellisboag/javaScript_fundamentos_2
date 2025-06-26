@@ -13,7 +13,7 @@ juntarArrays(lista1, lista2);
 const valores = [2, 4, 6, 8, 10];
 
 const somarValores = valores.reduce((acumulador, valorAtual) => acumulador + valorAtual, 0);
-console.log('A soma dos valores é:', somarValores); */
+console.log('A soma dos valores é:', somarValores);
 
 /* 3. Considere duas listas de cores:
 `const coresLista1 = ['Vermelho', 'Verde', 'Azul', 'Amarelo', 'Vermelho']`
