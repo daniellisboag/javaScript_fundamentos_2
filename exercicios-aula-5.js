@@ -1,6 +1,5 @@
 /* 1. Faça uma função que aceite vários arrays como argumentos e retorne um único array contendo todos os elementos dos arrays fornecidos, utilizando Spread Operator.
 Dica: é possível usar o spread operator diretamente em um parâmetro de função para "espalhar" seu conteúdo, por exemplo `function funcaoExemplo(...params)`. */
-/*
 const lista1 = [0, 2, 4, 6, 8];
 const lista2 = [1, 3, 5, 7, 9];
 
@@ -20,7 +19,7 @@ console.log('A soma dos valores é:', somarValores); */
 `const coresLista1 = ['Vermelho', 'Verde', 'Azul', 'Amarelo', 'Vermelho']`
 `const coresLista2 = ['Laranja', 'Verde', 'Roxo', 'Azul']`
 Crie um programa que una essas duas listas, removendo cores duplicadas e exiba a lista final. */
-/*
+
 const coresLista1 = ['Vermelho', 'Verde', 'Azul', 'Amarelo', 'Vermelho'];
 const coresLista2 = ['Laranja', 'Verde', 'Roxo', 'Azul'];
 
@@ -48,7 +47,7 @@ function filtrarNumeros(array) {
 }
 
 const resultado = filtrarNumeros(numeros);
-console.log(resultado); */
+console.log(resultado);
 
 // 6. Crie uma função que receba um array de números e retorne a soma de todos os elementos.
 const numeros = [3, 6, 9, 4, 12, 2, 7];
